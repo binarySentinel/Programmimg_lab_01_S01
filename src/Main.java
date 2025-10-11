@@ -33,7 +33,7 @@ public class Main {
     public static void printMatrix(double[][] matrix) {
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix[i].length; j++) {
-                System.out.printf("%.3f ", matrix[i][j]);
+                System.out.printf("10%.3f ", matrix[i][j]);
             }
             System.out.println();
         }
